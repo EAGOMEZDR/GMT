@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+/* MOBILE */
+
+@media only screen and (max-width: 720px){
+
+    /* HEADER*/
+
+    .barraVisible{
+        background-color: black;
+    }
+
+    .barraVisible ul{
+        display: flex;
+        list-style: none;
+    }
+
+    .barraVisible li{
+        margin-left: 2vh;
+        font-size: 2vh;
+        color:rgba(255, 255, 255, 0.795);
+    }
+
+    .headTitulo{
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .logo{
+        text-align: center;
+    }
+
+    .estudio{
+        text-align: center;
+    }
+
+    .descripcion{
+        text-align: center;
+    }
+
+
+    .barraNavegadora{
+        height: 50vh;
+        width: 15vh;
+        background-color: aqua;
+        position: absolute;
+        right:0;
+    }
+
+    .botonMenu{
+        height: 5vh;
+        width: 5vh;
+        background-color: aqua;
+        border-radius: 20px;
+        position:fixed;
+        right:2vh;
+        bottom:5vh;
+    }
+
+   
+
+    /* MAIN INDEX */
+
+
+
+
+
+
+
+     /* FOOTER  */
+    .redes ul li a img{
+        height: 4vh;
+        width: 4vh;
+    }
+
+
+
+}
+
+
+
+
+
+
+/* TABLET */
+
+@media only screen and (min-width: 721px){
+
+    .redes ul li a img{
+        height: 4vh;
+        width: 4vh;
+    }
+
+
+
+}
+
+
+
+/* DESKTOP */
+
+@media only screen and (min-width: 1200px){
+
+    .redes ul li a img{
+        height: 4vh;
+        width: 4vh;
+    }
+
+
+
+}
